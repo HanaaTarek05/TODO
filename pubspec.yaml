@@ -1,0 +1,53 @@
+name: todo_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.3.0
+  flutter_screenutil: ^5.9.3
+  dio: ^5.11.1
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+
+  fonts:
+    - family: Lexend_Deca
+      fonts:
+        - asset: assets/font/Lexend_Deca/LexendDeca-Thin.ttf
+          weight: 100
+        - asset: assets/font/Lexend_Deca/LexendDeca-ExtraLight.ttf
+          weight: 200
+        - asset: assets/font/Lexend_Deca/LexendDeca-Light.ttf
+          weight: 300
+        - asset: assets/font/Lexend_Deca/LexendDeca-Regular.ttf
+          weight: 400
+        - asset: assets/font/Lexend_Deca/LexendDeca-Medium.ttf
+          weight: 500
+        - asset: assets/font/Lexend_Deca/LexendDeca-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Lexend_Deca/LexendDeca-Bold.ttf
+          weight: 700
+        - asset: assets/font/Lexend_Deca/LexendDeca-ExtraBold.ttf
+          weight: 800
+        - asset: assets/font/Lexend_Deca/LexendDeca-Black.ttf
+          weight: 900
